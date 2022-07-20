@@ -4,18 +4,18 @@ const DATA_CACHE_NAME = 'data-cache-v2';
 //cache everything in front end/browser/public
 const FILES_TO_CACHE = [
     '/',
-    'public/index.html',
-    'public/manifest.json',
-    'public/css/styles.css',
-    'public/serviceworker.js',
-    'public/icons/icon-72x72.png',
-    'public/icons/icon-96x96.png',
-    'public/icons/icon-128x128.png',
-    'public/icons/icon-144x144.png',
-    'public/icons/icon-152x152.png',
-    'public/icons/icon-192x192.png',
-    'public/icons/icon-384x384.png',
-    'public/icons/icon-512x512.png'
+    './public/index.html',
+    './public/manifest.json',
+    './public/css/styles.css',
+    './public/serviceworker.js',
+    './public/icons/icon-72x72.png',
+    './public/icons/icon-96x96.png',
+    './public/icons/icon-128x128.png',
+    './public/icons/icon-144x144.png',
+    './public/icons/icon-152x152.png',
+    './public/icons/icon-192x192.png',
+    './public/icons/icon-384x384.png',
+    './public/icons/icon-512x512.png'
 ];
 
 // Install the service worker
